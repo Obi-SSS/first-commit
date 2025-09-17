@@ -1,4 +1,4 @@
-// 1.single line coment menggunakan  //
+2// 1.single line coment menggunakan  //
 
 // 2. multi comment coment menggunakan /* ... */
 
