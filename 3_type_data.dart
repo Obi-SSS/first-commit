@@ -42,7 +42,7 @@
    */
 
 void main(List<String> args) {
-  string nama = "orang";
+  String nama = "orang";
   int age = 14;
 
   var tinggi_badan;
