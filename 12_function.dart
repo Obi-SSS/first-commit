@@ -18,7 +18,8 @@ void main(List<String> args) {
   birthDay3("ucup");
   birthDay3("Guerero", age: 25);
   birthDay3("Vladimir", weight: 70.5);
-
+  print("luas ligkaran: ${luasLIngkaran(10)}");
+  print("keliling lingkaran: ${kelilingLingkaran(10)}");
 }
 
 //fingction tampa retrun
@@ -43,3 +44,39 @@ void birthDay3(String name, {int age = 17, weight = 66.6}) {
  * ataupun tidak mengisi parameter optional
  * maka akan menggunakan nilai dafult
  */
+/**
+ * arrow function
+ * with retrun value
+ */
+
+/**
+ * num adlah tipe data untuk angka
+ * nama function luasLingkaran
+ * memilike parameter r (jari-jari)
+ */
+/**
+ * buan versi global
+ */
+const pi = 3.14;
+
+num luasLIngkaran(num r) {
+  return pi * r * r;
+}
+
+//num luasLIngkaran
+
+//arrow function
+num kelilingLingkaran(num r) => 2 * pi * r;
+
+//defult
+//num luasPersegi(num sisi){
+//    return sisi * sisi;
+//}
+num luasPersegi(num sisi) => sisi * sisi;
+
+/**
+ * => adalah arrow function
+ * hanya dapat digunakan iuntuk finction
+ * yang memilki 1 baris kode
+ */
+
