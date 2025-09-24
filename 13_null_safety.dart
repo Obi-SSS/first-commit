@@ -33,19 +33,19 @@
  * ========================================
  */
 
-void main(List<String> args) {
-  String? favoriteFood = 'ayam geprek';
+// void main(List<String> args) {
+//   String? favoriteFood = 'ayam geprek';
 
-  buyMeal(favoriteFood);
-}
+//   buyMeal(favoriteFood);
+// }
 
-void buyMeal(String? favoriteFood) {
-  if (favoriteFood == null) {
-    print('saya membeli ayam geprek roket chicken');
-  } else {
-    print('Saya membeli pentol gosong di depan firja');
-  }
-}
+// void buyMeal(String? favoriteFood) {
+//   if (favoriteFood == null) {
+//     print('saya membeli ayam geprek roket chicken');
+//   } else {
+//     print('Saya membeli pentol gosong di depan firja');
+//   }
+// }
 
 /**
  * String? favoriteFood = null;
@@ -61,3 +61,16 @@ void buyMeal(String? favoriteFood) {
  * karena dilihat dair operator perbandingan nya
  * yakni == null
  */
+
+void main(List<String> args) {
+  buyMeal(favoriteFood!);
+
+  /**
+ * tanda ! di sematkan untuk memastikan bahwa
+ * mengembalikan nilai non-null
+ */
+}
+
+void buyMeal(String? favoriteFood) {
+  print('saya membeli makanan $favoriteFood');
+}
