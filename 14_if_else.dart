@@ -31,6 +31,19 @@ void main(List<String> args) {
   }
 
   /**
+   * progrma menggunakan stdin (input) nilaiUjian
+   * bar nilaiUjian type data dobule
+   * ketentuan nilai hasilnya ada di bawah ini
+   * jika nilai kurang dari 0 maka output nya
+   * "tika terdedefinisi (tidak terdaftar)"
+   *  * jika nilai lebih dair 100 maka outputnya
+   * "ini adalah cheater"
+   * 
+   * nilai anda "A/B/C/D/E"
+   * a-c itu luslu dan D-e = remidial 
+   */
+
+  /**
    * nilai E = <= 70 //kurang dari 70 E
    * Nilai D = 71 - 80
    * Nilai C = 81 - 85
