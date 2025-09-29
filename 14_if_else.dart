@@ -10,6 +10,7 @@ void main(List<String> args) {
   var nilaiujian = 80;
   var capek = true;
   var jamBuka = 7; //jam kerja toko
+  // ignore: unused_local_variable
   var jamKerja = 8; //jam kerja
   var jamTutup = 16; //jam Tutup
   var jamSekarang = 6; //jam sekarang

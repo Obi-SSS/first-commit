@@ -15,7 +15,7 @@
 void main(){
   print('dart is fun!');
  
-void main(){
+void (){
   print('dart is fun!');
 
   print("5 * 5 = ${multyply()}");
