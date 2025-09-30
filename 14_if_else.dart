@@ -57,4 +57,7 @@ void main(List<String> args) {
   } else {
     print('anda akan melakukan remidial');
   }
+
+  var soal1 = '';
+  
 }
