@@ -7,14 +7,14 @@ void main(List<String> args) {
    * penggunaan di awalki dnegan while(kondisi){kode yang di ulangi}
    */
   var i = 0;
-  while (i <= 10) ;
-  {
+  while (i <= 10) ;{
     print('ini baris ke $i');
     i++;
   }
+  
   var angka = 10;
   while (angka >= 0) {
-    print('ini bwabwabwa $angka');
+    print('ini adalah baris $angka');
     angka--;
   }
 }
