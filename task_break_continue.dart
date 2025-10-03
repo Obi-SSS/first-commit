@@ -7,7 +7,7 @@ void main(List<String> args) {
   }
 
   for (var i = 0; i <= 120; i++) {
-    if (i7) {
+    if (i != 7) {
       break;
     }
     print(i);
