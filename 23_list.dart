@@ -1,4 +1,3 @@
-import 'dart:vmservice_io';
 
 void main(List<String> args) {
   /**
