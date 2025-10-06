@@ -68,4 +68,11 @@ void main(List<String> args) {
    * spread list digunakan utuk menggabungkan 2 list / lebih
    * menjadi 1
    */
+
+  /**
+   * 1. buatlah list srting yang berisi 5 nama dari a - e
+   * -tampilkan data index
+   * -tambahkan nama baru, lalu hapus nama pertama
+   * -cek apakah anma  eka ada dalam list>
+   */
 }
