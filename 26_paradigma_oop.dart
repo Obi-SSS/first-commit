@@ -41,7 +41,43 @@ void main(List<String> args) {
    * method (fungsi) pola makan
    */
 
-  var ucup = manusia('kuning');
+  /**
+   * 2. abstraction
+   * abstrack juga bisa di bilang penerapan alamai
+   * dari enchapculation
+   * apstarksi berati sebuah object hanya menunjukan oprasi nya secara high -level
+   * 
+   * mesalnya ketika kita hatu bagaimana ucup makan, namum tika perlu tahus eperti apa metabolisme biologi
+   * dalam tubuh ucup yang membuat berat badan nya bertambah
+   */
+
+  /**
+   * 3. inherintance
+   * inherintance beberapa object bisa memiliki beberapa karakteristik / perilaku yang sama
+   * 
+   * namum, bukan lah objedt yang sama
+   * 
+   * ex: ucup guerero memili sifat dan perilaku yang umum dg manusia yang lainnya.
+   * seperti memilki warna kulit, berat , tinggi dsb
+   * 
+   * maka dari itu ucup guerero ad sebagai object turunan 
+   * (subclass) mewarisi sifat dan perilaku dari object induknya (superclass)
+   * 
+   * begitu jugaobjet vladimir  juga mewarisi perilaku yang sama, namun vladimir bisa berenang
+   * kalu ucup tidak bisa berenang
+   */
+
+  /**
+   * 4. polymorphism
+   * dalam bahas yunani berati " banyak "
+   * sederhananya object da-pat memiliki bentuk / implementasi yang berbeda -beda pada 1 metodh
+   * yang sama
+   * 
+   * semua manusia bergerak, namun getak ucup dan vladimir memiliki cara gerak yang berbeda.
+   * berbedaan bentuk / cara gerak tersebut merupakan contoh dari polymorphism
+   */
+
+  var ucup = manusia('kuning langsat', 'hitam', 72.02);
   print(ucup);
 
   print(ucup.beratBadan);
