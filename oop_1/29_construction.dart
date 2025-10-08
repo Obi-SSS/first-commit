@@ -5,11 +5,19 @@ class Hewan {
   double? weght;
 
   //constructor
-  Hewan(this.name, this.color, this.weght) {
-    this.name;
-    this.color;
-    this.weght;
-  }
+  Hewan(this.name, this.color, this.weght);
+
+  //mendeklarisikan konstructor
+  // Hewan(this.name, this.color, this.weght) {
+  //   this.name = name;
+  //   this.color = color;
+  //   this.weght = weght;
+  // }
+
+  //named construction
+  // Hewan(this.name, this.color) {
+  //   this.weght = 12.0;
+  // }
 
   //metodh
   void eat() {
