@@ -1,5 +1,5 @@
 import '28_class_animal.dart';
-import 'plants.dart';
+import '27_plants.dart';
 import '29_construction.dart';
 
 void main(List<String> args) {
@@ -28,7 +28,15 @@ void main(List<String> args) {
   print(moshroom.color);
   print(kucing.name);
 
-  
+  var animal = Hewan(
+    'ucup guerero', 'orange - white', 3.5)
+    ..name = 'vladimir'
+    ..color = 'red'
+    ..eat();
+
+  /**
+       * titik kome (;) menandakan
+       */
 }
 
 /**
