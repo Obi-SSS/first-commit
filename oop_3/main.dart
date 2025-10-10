@@ -17,5 +17,5 @@ void main(List<String> args) {
 
   var burungUcup = burung('ucup', 2.0, 1, 'Green')
     ..fly()
-    ..nest();w
+    ..nest();
 }
