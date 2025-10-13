@@ -1,4 +1,3 @@
-import 'animal.dart';
 import 'burung.dart';
 
 void main(List<String> args) {
